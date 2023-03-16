@@ -162,3 +162,36 @@ color:  red;
     box-shadow: none;
     border-color: var(--c-brand);
 }
+
+.social-icon {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 30px;
+    color: #fff;
+    transition: all 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.2);
+  }
+
+  .line p {
+    width: 60%;
+  }
+
+  .custom-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .col-4 {
+    flex-basis: calc(33.33% - 20px);
+    margin: 10px;
+  }
+  
+  
+
+
+  
